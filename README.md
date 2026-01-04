@@ -1,5 +1,8 @@
 # Claude Slop Detector
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-blue)](https://claude.ai)
+
 A Claude Code skill for detecting AI-generated writing patterns ("slop") in content.
 
 ## What is "Slop"?
