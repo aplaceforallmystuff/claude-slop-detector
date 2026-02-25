@@ -127,19 +127,6 @@ The fastest way to identify AI slop:
 
 If yes, it's slop. Specificity separates genuine insight from generic templates.
 
-## Contributing
-
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-### Adding New Patterns
-
-If you've identified AI patterns not covered:
-
-1. Open an issue describing the pattern
-2. Include examples (before/after)
-3. Suggest which tier it belongs to
-4. Bonus: include research/evidence if available
-
 ## License
 
 MIT License - see [LICENSE](LICENSE)
