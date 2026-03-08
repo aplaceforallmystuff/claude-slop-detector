@@ -19,7 +19,13 @@ This skill helps you identify these patterns and fix them.
 
 ## Installation
 
-### Option 1: Copy to your Claude Code skills directory
+### Option 1: Skills CLI
+
+```bash
+npx skills add aplaceforallmystuff/claude-slop-detector
+```
+
+### Option 2: Copy to your Claude Code skills directory
 
 ```bash
 # Clone the repository
@@ -29,13 +35,13 @@ git clone https://github.com/aplaceforallmystuff/claude-slop-detector.git
 cp -r claude-slop-detector/skills/slop-detector ~/.claude/skills/
 ```
 
-### Option 2: Clone directly to skills directory
+### Option 3: Clone directly to skills directory
 
 ```bash
 git clone https://github.com/aplaceforallmystuff/claude-slop-detector.git ~/.claude/skills/slop-detector
 ```
 
-### Option 3: Manual installation
+### Option 4: Manual installation
 
 1. Create the directory: `mkdir -p ~/.claude/skills/slop-detector`
 2. Download [SKILL.md](skills/slop-detector/SKILL.md) to that directory
@@ -138,11 +144,13 @@ Detection patterns informed by:
 - Georgia Tech analysis of 168.3M academic articles
 - Biomedical literature analysis of AI marker co-occurrence
 
-## Related Projects
+## Related Skills
 
-This skill pairs well with:
-- **voice-analyzer** - Create a voice profile from your writing samples
-- **voice-editor** - Edit content to match your voice profile
+Part of the [aplaceforallmystuff](https://skills.sh/aplaceforallmystuff) skills collection:
+
+- **[the-antislop](https://github.com/aplaceforallmystuff/the-antislop)** — More comprehensive detection + editor mode (35+ patterns)
+- **[voice-analyzer](https://github.com/aplaceforallmystuff/claude-voice-analyzer)** — Create a voice profile from your writing samples
+- **[voice-editor](https://github.com/aplaceforallmystuff/claude-voice-editor)** — Edit content to match your voice profile
 
 ---
 
